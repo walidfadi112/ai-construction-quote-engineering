@@ -1,0 +1,14 @@
+{
+  "name":"AI Construction Quote Validation",
+  "nodes":[
+    {"name":"Webhook - Quote Received","type":"n8n-nodes-base.webhook","position":[0,0]},
+    {"name":"Normalize Input","type":"n8n-nodes-base.code","position":[220,0]},
+    {"name":"OCR Adapter","type":"n8n-nodes-base.httpRequest","position":[440,0]},
+    {"name":"LLM Structured Extraction","type":"n8n-nodes-base.httpRequest","position":[660,0]},
+    {"name":"Business Validation API","type":"n8n-nodes-base.httpRequest","position":[880,0]},
+    {"name":"Decision","type":"n8n-nodes-base.if","position":[1100,0]},
+    {"name":"Human Review","type":"n8n-nodes-base.gmail","position":[1320,120]},
+    {"name":"Approved Notification","type":"n8n-nodes-base.gmail","position":[1320,-120]}
+  ],
+  "connections":{}
+}

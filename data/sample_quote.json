@@ -1,0 +1,15 @@
+{
+  "quote_number":"DEV-2026-041",
+  "date":"2026-10-06",
+  "company":"BatiPro SARL",
+  "project":"Rénovation Clermont - Lot isolation",
+  "currency":"EUR",
+  "items":[
+    {"description":"Isolation des combles","quantity":100,"unit":"m2","unit_price_ht":42,"total_ht":4200},
+    {"description":"Pose et finitions","quantity":1,"unit":"forfait","unit_price_ht":850,"total_ht":850}
+  ],
+  "total_ht":5050,
+  "vat_rate":20,
+  "total_ttc":6060,
+  "confidence":0.96
+}
